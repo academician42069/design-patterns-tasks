@@ -1,4 +1,4 @@
-import { IDroid } from "../interfaces/IDroid";
+import { IDroid } from "./interfaces";
 
 export class Rx24 implements IDroid {
     public info() {

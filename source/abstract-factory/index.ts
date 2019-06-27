@@ -1,6 +1,6 @@
-import { B1 } from "./classes/b1";
-import { Rx24 } from "./classes/rx24";
-import { IDroid } from "./interfaces/IDroid";
+import { B1 } from "./b1";
+import { IDroid } from "./interfaces/";
+import { Rx24 } from "./rx24";
 
 function droidProducer(kind: string): () => IDroid {
     if (kind === "battle") {

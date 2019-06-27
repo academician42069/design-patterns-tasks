@@ -1,0 +1,1 @@
+export { IColor } from "./IColor";
